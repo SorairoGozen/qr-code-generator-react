@@ -42,15 +42,8 @@ const QRCode = require('qrcode.react');
           <p>{this.state.error}</p>
           <QRCode value={this.state.qrCode} renderAs='svg' />
         </div>
-        
-      
-      
       </div>
-      
     )
   }
-    
-  
 }
-
 export default App;
