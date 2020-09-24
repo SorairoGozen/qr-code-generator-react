@@ -40,7 +40,7 @@ const QRCode = require('qrcode.react');
         <button onClick={this.generateQrCode}>Generate</button><br/><br/>
         <div style={{color: "display"}}>
           <p>{this.state.error}</p>
-          <QRCode value={this.state.qrCode} renderAs='svg' />
+          <QRCode value={this.state.qrCode} />
         </div>
       </div>
     )
